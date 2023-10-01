@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    width:100%;
+    height:100vh;
+    background-color:rgb(79, 121, 190);
+}
+.icons-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    margin:30px 30px;
+    padding:20px 20px;
+}
+.btn{
+    margin:30px 30px;
+    padding:20px 20px;
+}
+.quote{
+    margin:30px 30px;
+    padding:20px 20px;
+    color:black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display:block;
+}
+.auther{
+     margin:30px 30px;
+    padding:10px 10px; 
+    color:black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;   
+}
+.quote-area{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-80%);
+    width:500px;
+    height:auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.btn button{
+    color:black;
+    padding:12px 18px;
+    border:none;
+    color:white;
+    border-radius:9px;
+    background-color:rgb(33, 112, 237);
+}
+.icons{
+    border-radius: 50%;
+    border:2px solid rgb(10, 91, 220);
+
+}
+.icons i{
+    color:rgb(45, 121, 242);
+    font-weight: 600;
+
+}
+
